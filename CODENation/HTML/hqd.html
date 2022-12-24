@@ -1,0 +1,130 @@
+<html lang="ru">
+
+	<head>
+	
+		<title>Пыхтящий дракон</title>
+	
+		<link rel="stylesheet" href="../CSS\style.css" />
+	
+
+        <meta name="viewport" content="width=1170">
+	
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+<body>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-202695355-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+	
+  gtag('set', { 'clientId': '1467683978.1626938892'});
+	
+  gtag('config', 'UA-202695355-1' , {
+  'custom_map': {
+    'dimension1': 'clientId'
+  }
+  });
+</script>
+
+<div class="content">
+    <div ><img src="../img\WhatsApp Image 2021-07-16 at 12.07.25.jpeg"  class="logo" alt=""  width="1775px" height="800px">
+    <div class="nav-menu">
+        <a href="../index.html"><div class="nav-menu_obchect">Главная страница</div></a>
+        <a href="catalog.html"><div class="nav-menu_obchect">Каталог товаров</div></a>
+        <a href="corzina.html"><div class="nav-menu_obchect">Корзина</div></a>
+        <a href="spasipo.html"><div class="nav-menu_obchect">Спасибо</div></a>
+        <a href="404.html"><div class="nav-menu_obchect">404</div> </a>
+</div>
+    
+
+
+    <div>
+        <div class="img-siga">
+            <img src="../img\1.png" alt="" class="">
+            <div class="pop">HQD CUVIE PLUS, Манго-гуава  Одноразовая электронная сигарета HQD Super, в индивидуальной упаковке, включение происходит при затяжке. После употребления необходимо сдавать в пункт приема батареек.</div>
+            </div>
+    <a href="corzina.html" id="cart"   class="pocupca id">Добавить в корзину</a>
+        <div class="img-siga">
+            <img src="../img\2.png" alt="" class="">
+            <div class="pop">HQD CUVIE PLUS, Черника-малина  Одноразовая электронная сигарета HQD Super, в индивидуальной упаковке, включение происходит при затяжке. После употребления необходимо сдавать в пункт приема батареек.</div>
+            </div>
+       <a   class="pocupca id">Добавить в корзину</a>
+        <div class="img-siga">
+            <img src="../img\3.png" alt="" class="">
+            <div class="pop">HQD CUVIE PLUS, Яблоко-персик  Одноразовая электронная сигарета HQD Super, в индивидуальной упаковке, включение происходит при затяжке. После употребления необходимо сдавать в пункт приема батареек.</div>
+            </div>
+      
+            <a href="corzina.html"><button class="pocupca id">Добавить в корзину</button></a>
+    
+        
+        </div>
+
+	
+</div>
+	
+<script>
+	 gtag('event', 'view_item', {
+  "items": [
+	  
+    {
+      "id": "S111",
+      "name": "HQD Cuvie Plus",
+      "list_name": "Search Results",
+      "brand": "HQD",
+      "category": "Electronic Vaporizer",
+      "variant": "Black",
+      "list_position": 1,
+      "quantity": 3,
+      "price": 383
+    }
+  ]
+});	
+	
+	</script>
+	
+<script>
+	
+	window.onload = function () {
+
+    //получаем идентификатор элемента
+    var a = document.getElementById('cart');
+    
+    //вешаем на него событие
+    a.onclick = function() {
+	
+        //производим какие-то действия
+	    gtag('event', 'add_to_cart', {
+  "items": [
+    {
+       "id": "S111",
+      "name": "HQD Cuvie Plus",
+      "brand": "HQD",
+      "category": "Electronic Vaporizer",
+      "variant": "Black",
+      "list_position": 1,
+      "quantity": 3,
+      "price": 383
+	    
+	   
+
+     }
+    
+  ],
+});
+	
+        //предотвращаем переход по ссылке href
+      
+	  
+	
+    }
+	
+}
+</script>
+	
+
+
+
+</body>
+</html>

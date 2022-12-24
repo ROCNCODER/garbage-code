@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+background:black;
+color: white;
+
+
+color:white ;
+text-align: center;
+font-size: 35px;
+font-family: 'Mulish', sans-serif;
+}
+
+.contener{
+  min-width: 400px;
+}
+
+/*Тут что с флекс элементами*/
+.box{
+ 
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+
+  
+}
+
+.box_one a{
+  color: azure;
+  padding-top: 40px;
+}
+
+.PODVAl{
+  padding-top: 25%;
+
+}
+
+.content_one{
+  padding-top:150px;
+  padding-left:300px;
+  padding-right:300px;
+}
+
+/*Раздел CSS стилей для отработки свойств блоков */
+
+.Block_1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 700;
+  color: blanchedalmond;
+  text-align:center;
+    /*Стили блоков */
+    border:10px ;
+}
+
+.Block_2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 5%;
+  font-style:normal;
+  font-weight: 100;
+  color: crimson;
+  text-align: justify;
+  border: 1px solid 
+    /*Стили блоков */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap');
+
+.Block_3{
+font-family: 'Tiro Devanagari Sanskrit', serif;
+font-size: 45px;
+font-style: initial;
+font-weight: 900;
+color:darkviolet;
+text-align:left;
+  /*Стили блоков */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Tiro+Devanagari+Sanskrit&display=swap');
+
+.Block_4{
+  font-family: 'Tiro Devanagari Sanskrit', serif;font-family: 'Tiro Devanagari Sanskrit', serif;
+  font-size: 30%;
+  font-style: oblique;
+  color:indigo;
+  text-align: right;
+  /*Стили блоков */
+}
+
+.Block_5{
+  font-family: 'Tiro Devanagari Sanskrit', serif;font-family: 'Tiro Devanagari Sanskrit', serif;
+  font-size: 55px;
+  font-style: oblique 40deg;
+  font-weight: 700;
+  color: darkgoldenrod;
+  text-align: center;
+}
+/*Конец раздела CSS стилей для отработки свойств блоков */
+
+.version{
+  border: 1px solid white;
+}
+
+
+
+

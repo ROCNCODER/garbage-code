@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+
+<html lang="ru">
+
+	<head>
+	
+		<title>Пыхтящий дракон</title>
+	
+		<link rel="stylesheet" href="../CSS\style.css" >
+	
+
+        <meta name="viewport" content="width=1800">
+	
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" >
+	</head>
+<body>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-202695355-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-202695355-1');
+</script>
+
+<div class="content">
+    <div ><img src="../img\WhatsApp Image 2021-07-16 at 12.07.25.jpeg"  class="logo" alt=""  width="1775px" height="800px">
+    <div class="nav-menu">
+        <a href="../index.html"><div class="nav-menu_obchect">Главная страница</div></a>
+        <a href="catalog.html"><div class="nav-menu_obchect">Каталог товаров</div></a>
+        <a href="corzina.html"><div class="nav-menu_obchect">Корзина</div></a>
+        <a href="spasipo.html"><div class="nav-menu_obchect">Спасибо</div></a>
+        <a href="404.html"><div class="nav-menu_obchect">404</div> </a>
+</div>
+    <div class="corz">
+           <div class="info-top">Ваш товар</div>
+          <a href="spasipo.html" onclick="showMessage()"> <button class="cnopca " onclick="showMessage()" >Купить</button> </a>
+        </div>
+        
+
+	</div>
+</div>
+
+	
+<script>
+	
+gtag('event', 'begin_checkout', {
+  "items": [
+    {
+      "id": "S111",
+      "name": "HQD Cuvie Plus",
+      "brand": "HQD",
+      "category": "Electronic Vaporizer",
+      "variant": "Black",
+      "list_position": 1,
+      "quantity": 3,
+      "price": 383
+    },
+	   {
+   "id": "S112",
+      "name": "HQD MEGA",
+      "brand": "HQD",
+      "category": "Electronic Vaporizer",
+      "variant": "Red",
+      "list_position": 2,
+      "quantity": 3,
+      "price": 743
+    }
+  ],
+  "coupon": ""
+});
+
+	</script>
+	<script>
+		function showMessage(){
+gtag('event', 'checkout_progress', {
+  "items": [
+    {
+      "id": "P12345",
+      "name": "Android Warhol T-Shirt",
+      "brand": "Google",
+      "category": "Apparel/T-Shirts",
+      "variant": "Black",
+      "list_position": 1,
+      "quantity": 2,
+      "price": '2.0'
+    }
+  ],
+  "coupon": "SUMMER_DISCOUNT"
+});
+	
+</script>
+	
+	
+<script>
+	function createFunctionWithTimeout(callback, opt_timeout) {
+  var called = false;
+  function fn() {
+    if (!called) {
+      called = true;
+      callback();
+    }
+  }
+  setTimeout(fn, opt_timeout || 1000);
+  return fn;
+}
+		
+</script>
+	
+</body>
+</html>
